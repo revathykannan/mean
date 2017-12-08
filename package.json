@@ -4,6 +4,7 @@
   "description": "Mean App",
   "main": "app.js",
   "scripts": {
+    "build":"cd client && ng build --prod",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
